@@ -3,8 +3,8 @@ import User from "./User.jsx";
 import Timestamp from "./Timestamp.jsx";
 import Message from "./Message.jsx";
 import Actions from "./Actions.jsx";
-function Tweet({ Tweet }) {
-  const { user, timestamp, message } = Tweet;
+function Tweet({ tweet }) {
+  const { user, timestamp, message } = tweet;
   const { name, image, handle } = user;
   return (
     <div className="tweet">
